@@ -7,34 +7,55 @@
     <title>Trang chủ</title>
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
     <script src="https://kit.fontawesome.com/1140805201.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="nav">
-            <div class="nav-logo">
-                <a href="./home.html"><img src="./images/logo.png" alt="logo" width="25px" height="25px"></a>
+      <header class="header">
+            <div class="nav">
+                <div class="nav-logo">
+                    <a href="./home.html"><img src="./images/logo.png" alt="logo" width="25px" height="25px"></a>
+                </div>
+            
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="./men.html">Nam</a></li>
+                        <li><a href="./women.html">Nữ</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./support.html">Hỗ trợ khách hàng</a></li>
+                    </ul>
+                </div>
+            
+                <div class="nav-tools">
+                    <div><i class="fa-solid fa-magnifying-glass fa-xl"></i></div>
+                    <div><a href="./favorite.html"><i class="fa-solid fa-heart fa-xl"></i></a></div>
+                    <div><i class="fa-solid fa-cart-shopping fa-xl"></i></div>
+                </div>
             </div>
-
-            <!--  -->
-
-            <div class="nav-items">
-                <ul>
-                    <li><a href="./men.html">Nam</a></li>
-                    <li><a href="./women.html">Nữ</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./support.html">Hỗ trợ khách hàng</a></li>
-                </ul>
+      </header>
+        <!--  -->
+        <section class="slide-banner">
+            <div class="slider-container">
+                <div class="menu">
+                    <label for="slide-dot-1"></label>
+                    <label for="slide-dot-2"></label>
+                </div>
+        
+                <input id="slide-dot-1" type="radio" name="slides" checked>
+                <div class="slide slide-1"></div>
+        
+                <input id="slide-dot-2" type="radio" name="slides">
+                <div class="slide slide-2"></div>
             </div>
+        </section>
+        
+        <!--  -->
+        <section class="categories-banner">
+            <div><a href="./men.html"><img src="./images/men.jpg" alt="forMen"></a></div>
+            <div><a href="./women.html"><img src="./images/women.jpg" alt="forWomen"></a></div>
+        </section>
 
-            <!--  -->
 
-
-            <div class="nav-tools">
-                <div><i class="fa-solid fa-magnifying-glass fa-xl"></i></div>
-                <div><a href="./favorite.html"><i class="fa-solid fa-heart fa-xl"></i></a></div>
-                <div><i class="fa-solid fa-cart-shopping fa-xl"></i></div>
-            </div>
-    </div>
     <script src="./js/script.js"></script>
 </body>
 </html>
