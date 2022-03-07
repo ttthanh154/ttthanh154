@@ -57,15 +57,18 @@
 
 
 .categories-banner {
+  max-width: 100%;
+} 
+
+.categories-banner-grid{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 20px 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    padding: 20px 0px;
+
 }
 
-.categories-banner div a {
-    background-position: center;
-    width: 100%;
-    top: 0;
-    left: 0;
+.card img{
+  width: 100%;
 }
