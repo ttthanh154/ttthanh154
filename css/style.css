@@ -83,8 +83,10 @@ h1{
 
 .footer{
   color: #acacac;
+  background-color: rgb(247,247,247);
   font-weight: 600;
   font-size: 14px;
+  padding: 60px 5% 40px;
 }
 
 .footer h4{
@@ -97,20 +99,19 @@ h1{
 .footer-grid{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  background-color: rgb(247,247,247);
   width: 100%;
-  padding: 60px 5% 40px;
+ 
   grid-gap: 64px;
 }
 
 p.copy{
-  margin-top: 60px;
-  padding-top: 40px;
+  padding: 60px 0px 0px;  
+  margin: 40px 0px 0px;
   border-top: 1px #bbb solid;
 }
 
 .footer-icons a{
-  width: 25px;
-  height: 25px;
-  padding-right: 15px;
+    display: inline-block;
+    margin-right: 16px;
+    opacity: 0.5;
 }
