@@ -66,4 +66,6 @@
 .categories-banner div a {
     background-position: center;
     width: 100%;
+    top: 0;
+    left: 0;
 }
