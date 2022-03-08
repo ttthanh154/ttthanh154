@@ -19,17 +19,24 @@ p{
     font-size: small;
   }
 
+  .container{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+
+  }
+
+  .blank{
+    background-color: red;
+  }
+
   .grid-container2{
     justify-content: center;
     display: grid;
-    grid-template-columns: 300px 300px 300px ;
-    row-gap: 15px;
-    column-gap: 40px;
-    padding-left: 300px;
-    padding-top: 40px;
-    font-size: small;
-   
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    padding: 0px 40px;
   }
-  .sanphamnam{
-    
+  .sanphamnam img{ 
+    width: 100%;
   }
