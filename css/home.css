@@ -71,3 +71,72 @@
 .card img{
   width: 100%;
 }
+
+.new-products{
+  max-width: 100%;
+  padding: 55px;
+}
+
+h2{
+  width: 100%;
+  text-align: center;
+}
+
+.new-products a{
+  max-width: 100%;
+  font-size: 42px;
+  cursor: pointer;
+}
+
+.gender-toggle{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.btn{
+  width: 9%;
+  margin: 0px 10px;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  background-color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.products-slider{
+  /* max-width: 100%; */
+}
+
+.slides{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.slides h6{
+  padding: 5px 0px;
+
+}
+
+.slides p{
+  font-size: 11px;
+}
+
+.products-slider-item img{ 
+  display: inline;
+  overflow: hidden;
+  width: 100%;
+  left: 0px;
+}
+
+p.price{
+  margin: 5px 0px 10px;
+}
+
+.stylepick{
+  max-width: 100%;
+  padding: 65px;
+  background-color: #adbabf;
+}
