@@ -1,12 +1,12 @@
 
-
-h2{
-    padding-top: 40px;
-    padding-left: 50px;
+.introduction{
+  padding: 30px 30px;
 }
-p{
-    font-size:14px;
-    padding-left: 50px;
+
+.introduction p{
+  max-width: 50%;
+  font-size: 14px;
+  margin-top: 15px;
 }
 
 .grid-container1 {
@@ -14,7 +14,7 @@ p{
     grid-template-columns: 200px 100px 100px 100px 100px;
     row-gap: 15px;
     column-gap: 40px;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 40px;
     font-size: small;
   }
@@ -24,10 +24,6 @@ p{
     display: grid;
     grid-template-columns: 30% 70%;
 
-  }
-
-  .blank{
-    background-color: red;
   }
 
   .grid-container2{
@@ -40,3 +36,4 @@ p{
   .sanphamnam img{ 
     width: 100%;
   }
+

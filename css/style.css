@@ -5,8 +5,8 @@
 }
 
 body{
-      /* Tìm font chữ */ 
-    font-weight: 400;
+    font-family: 'Bitter', serif;
+    font-weight: 700;
 }
 
 .header{

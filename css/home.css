@@ -106,9 +106,9 @@ h2{
   cursor: pointer;
 }
 
-.products-slider{
-  /* max-width: 100%; */
-}
+/* .products-slider{
+
+} */
 
 .slides{
   display: grid;
@@ -117,7 +117,6 @@ h2{
 
 .slides h6{
   padding: 5px 0px;
-
 }
 
 .slides p{
@@ -136,6 +135,12 @@ p.price{
 }
 
 .stylepick{
+  max-width: 100%;
+  padding: 65px;
+  background-color: #adbabf;
+}
+
+.blog{
   max-width: 100%;
   padding: 65px;
   background-color: #adbabf;
