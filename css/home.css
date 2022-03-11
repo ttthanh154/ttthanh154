@@ -124,15 +124,33 @@ h2{
   font-size: 11px;
 }
 
+.products-slider-item h6, p{
+  display: flex;
+  justify-content: center;
+}
+
+.products-slider-item h6{
+  font-size: 14px;
+  font-weight: bolder;
+}
+.products-slider-item p{
+  
+  margin: 5px ;
+}
+
+
 .products-slider-item img{ 
-  display: inline;
+  display: inline-block;
   overflow: hidden;
   width: 100%;
   left: 0px;
+
 }
 
 p.price{
-  margin: 5px 0px 10px;
+  margin: 5px 0px 5px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .stylepick{
