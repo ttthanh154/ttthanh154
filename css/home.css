@@ -163,6 +163,10 @@ p.price{
   font-size: 42px;
 }
 
+.stylepick h2{
+    margin: 0px 0px 50px 0px;
+}
+
 
 .weekly-best{
   max-width: 100%;
