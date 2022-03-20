@@ -1,6 +1,4 @@
 var slideIndex = 0;
-showSlides();
-
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -13,3 +11,4 @@ function showSlides() {
 
     setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+showSlides();

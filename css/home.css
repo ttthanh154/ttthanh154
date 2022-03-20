@@ -160,6 +160,37 @@ p.price{
     margin: 0px 0px 50px 0px;
 }
 
+.container{
+  max-width: 100%;
+}
+
+.detail-container{
+  text-align: center;
+  color: white;
+}
+
+.detail-container h6{
+  padding: 5px 0px 5px 0px;
+  font-size: 14px;
+}
+
+.owl-nav{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.owl-nav button span{
+  font-size: 50px;
+}
+
+.owl-dots span{
+  display: flex;
+  background-color: ;
+}
 
 .weekly-best{
   max-width: 100%;
