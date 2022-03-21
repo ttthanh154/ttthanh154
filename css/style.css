@@ -64,8 +64,15 @@ body{
 
 .nav-tools>div{
     padding: 7.5px 10px;
+
 }
 
+.nav-tools>div:hover{
+    transition: 0.2s;
+    border-radius: 3px;
+    background-color: #bbb;
+    opacity: 0.5;
+}
 
 li{
     display: inline-block;

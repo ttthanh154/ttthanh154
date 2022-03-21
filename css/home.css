@@ -9,11 +9,14 @@
   text-align: center;
 }
 
+
 .slide{
   width: 100%;
   min-height: 100vh;
   object-fit: cover;
 }
+
+
 
 .fade {
   -webkit-animation-name: fade;
@@ -37,6 +40,7 @@
   max-width: 100%;
 } 
 
+
 .categories-banner-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -47,6 +51,14 @@
 
 .card img{
   width: 100%;
+}
+
+.card img:hover{
+  transition: 0.2s;
+  background-blend-mode: darken;
+  box-shadow: 1px 1px 5px black;
+  border-color: rgb(222,224,223);
+  opacity: 0.7;
 }
 
 .new-products{
@@ -107,6 +119,8 @@ h2{
 .slides{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  grid-gap: 10px;
+
 }
 
 .slides h6{
@@ -137,7 +151,7 @@ h2{
   overflow: hidden;
   width: 100%;
   left: 0px;
-
+  border-radius: 20px;
 }
 
 p.price{
@@ -187,10 +201,23 @@ p.price{
   font-size: 50px;
 }
 
+
 .owl-dots span{
   display: flex;
-  background-color: ;
 }
+
+.product-container-item img{
+  border-radius: 20px;
+}
+
+.product-container-item img:hover{ 
+  transition: 0.1s;
+  background-blend-mode: darken;
+  box-shadow: 1px 1px 5px black;
+  border-color: rgb(222,224,223);
+  opacity: 0.7;
+}
+
 
 .weekly-best{
   max-width: 100%;
