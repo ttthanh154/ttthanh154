@@ -141,23 +141,28 @@ h2{
   font-weight: bolder;
 }
 .products-slider-item p{
-  
   margin: 5px ;
 }
-
 
 .products-slider-item img{ 
   display: inline-block;
   overflow: hidden;
   width: 100%;
   left: 0px;
-  border-radius: 20px;
+
+}
+
+.products-slider-item img:hover{
+  transition: 0.1s;
+  background-blend-mode: darken;
+  box-shadow: 1px 1px 5px black;
+  border-color: rgb(222,224,223);
 }
 
 p.price{
   margin: 5px 0px 5px;
   font-size: 18px;
-  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .stylepick{
@@ -206,9 +211,6 @@ p.price{
   display: flex;
 }
 
-.product-container-item img{
-  border-radius: 20px;
-}
 
 .product-container-item img:hover{ 
   transition: 0.1s;

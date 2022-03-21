@@ -1,6 +1,6 @@
 .introduction{
   padding: 35px 70px;
-
+  color: #9f9fac;
 }
 
 p{
@@ -15,43 +15,69 @@ p{
     grid-gap: 10px;
     padding: 0px 70px;
     font-size: small;
-  }
+}
+
+.grid-item a{
+  color: #9f9fac;;
+}
+
+
+
+.grid-item a:hover{
+    font-size: 14px;
+    color: rgb(159,34,78);
+    transition: 0.2s;
+}
 
   /* can le hinh anh san pham + nut */
-  .container{
+.container{
     max-width: 100%;
     display: grid;
     grid-template-columns: 18% 82% ;
     margin-top: 50px;
-  }
-  .grid-item a:hover{
-    background-color: #616060;
-    transition: 0.3s;
-    opacity: 0.7;
-    font-weight: 900;
-    padding: 2px;
-    color: white;
-  }
+}
 
   /* Can le hinh anh san pham + chu */
-  .grid-container2{
+.grid-container2{
   
     display: grid;
     grid-template-columns: repeat(3,1fr) ;
-    grid-gap: 0px;
-      padding: 0px 60px;
+    grid-gap: 10px;
+    padding: 0px 60px;
     font-size: medium;
-
     max-width: 100%;
-  }
+}
 
-  .grid-container2 img{
+.grid-container2 img{
     width: 100%;
     height: 85%;
-  }
+}
+
+.item{
+  margin: 0px 0px 70px 0px;
+}
 
 .item p{
+  padding: 5px 0px;
   text-align: center;
+}
+
+p.price{
+  text-align: center;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item img{
+  width: 100%;
+  min-height: 100%;
+}
+
+.item img:hover{
+  transition: 0.1s;
+  background-blend-mode: darken;
+  box-shadow: 1px 1px 5px black;
+  border-color: rgb(222,224,223);
 }
 
   /* Dropdown Button */
