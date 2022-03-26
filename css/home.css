@@ -166,6 +166,10 @@ p.price{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#women-new{
+  display: none;
+}
+
 .stylepick{
   max-width: 100%;
   padding: 65px;
@@ -232,12 +236,18 @@ p.price{
 }
 
 
-.blog{
-  max-width: 100%;
-  padding: 65px;
-  background-color: #adbabf;
+#women-week{
+  display: none;
 }
 
-.blog a{
-  font-size: 42px;
-}
+ #men-new, #men-week, #women-new, #women-week{
+   -webkit-animation: slide-down 0.3s ease-out;
+   -moz-animation: slide-down 0.3s ease-out;
+   -webkit-animation: slide-down 1s ease-in;
+   -moz-animation: slide-down 1s ease-in;   
+ }
+
+ @-webkit-keyframes slide-down{
+   0% {opacity: 0;}
+   20% {opacity: 1;}
+ }
