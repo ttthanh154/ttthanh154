@@ -5,7 +5,7 @@ const search = () => {
     const productName = storeItems.getElementsByTagName('h6');
 
     for (var i = 0; i < productName.length; i++){
-        let match = document.getElementsByTagName('h6')[0];
+        let match = product[i].getElementsByTagName('h6')[0];
 
         if(match){
            let textValue = match.textContent || match.innerHTML;
@@ -18,23 +18,3 @@ const search = () => {
         }
     }
 }
-
-
-
-// function search() {
-//     var input, filter, ul, li, a, i, txtValue;
-//     input = document.getElementById("search-item");
-//     filter = input.value.toUpperCase();
-//     ul = document.getElementById("product-list");
-//     li = ul.getElementsByTagName("h6");
-
-//     for (i = 0; i < li.length; i++) {
-//         a = li[i].getElementsByTagName("a")[0];
-//         txtValue = a.textContent || a.innerText;
-//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-//             li[i].style.display = "";
-//         } else {
-//             li[i].style.display = "none";
-//         }
-//     }
-// }
