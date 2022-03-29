@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giỏ hàng</title>
-    <link rel="stylesheet" href="./css/cart.css">
+    <title>Yêu thích</title>
     <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/product.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,37 +40,16 @@
 
     <!--  -->
 
-    <section class="cart">
-        <h2>Giỏ hàng</h2>
-        <form action="">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Sản phẩm</th>
-                        <th>Giá</th>
-                        <th>Số lượng</th>
-                        <th>Chọn</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td style="display:flex;align-items: center;"><img src="./images/Doc Tee.jpeg" style="width:120px" alt="">Áo</td>
-                        <td><span>299.000</span><sup>đ</sup></td>
-                        <td><input style="width:40px; outline:none;" type="number" value="1" min="1"></td>
-                        <td style="cursor:pointer">Xóa</td>
-                    </tr>
-                    <tr>
-                        <td style="display:flex;align-items: center;"><img src="./images/Barbie Knit.jpeg" style="width:120px" alt="">Áo</td>
-                        <td><span>299.000</span><sup>đ</sup></td>
-                        <td><input style="width:40px; outline:none;" type="number" value="1" min="1"></td>
-                        <td style="cursor:pointer">Xóa</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div style="text-align: right" class="price-total">
-                <p style="font-weight: bold;">Tổng tiền:<span>299.000</span><sup>đ</sup> </p>
-            </div>
-        </form>
+    <section class="product">
+        <ul>
+            <li><img src="./images/Mona Lis Skirt.jpeg" onclick="changeImage('one')" id="one"></li>
+            <li><img src="./images/Check Mini Skirt.jpeg" onclick="changeImage('two')" id="two"></li>
+            <li><img src="./images/packed shirt.jpeg" onclick="changeImage('three')" id="three"></li>
+            <li><img src="./images/Venus Knit.jpeg" onclick="changeImage('four')" id="four"></li>
+        </ul>
+        <div id="main-image">
+            <img src="./images/Mona Lis Skirt.jpeg" id="preference-image">
+        </div>
     </section>
 
     <!--  -->
@@ -112,7 +91,7 @@
         </div>
     </footer>
     <script src="./js/script.js"></script>
-    <script src="./js/cart.js"></script>
+    <script src="./js/product.js"></script>
 </body>
 
 </html>

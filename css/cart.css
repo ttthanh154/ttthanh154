@@ -1,0 +1,36 @@
+.cart{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 55px;
+    color:  #5c5c63;
+}
+
+h2{
+    margin: 30px 0px;
+}
+
+form{
+    margin: auto;
+    width: 70%;
+}
+
+.cart table{
+    width: 100%;
+}
+
+.cart table thead tr th:first-child{
+    text-align: left;
+}
+
+.cart table tr td{
+    border-bottom:  1px solid #ddd;
+}
+
+.cart table thead tr th:last-child{
+    text-align: right;
+}
+.cart table tbody tr td:last-child{
+    text-align: right;
+}
