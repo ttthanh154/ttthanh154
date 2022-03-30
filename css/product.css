@@ -1,10 +1,13 @@
+
 .product{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     width: 100%;
     height: 100vh;
     padding: 0px 55px;
-    color:  #5c5c63;
+    color:  black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .product ul, #main-image{
@@ -14,20 +17,168 @@
     flex-direction: column;
 }
 
+
 .product ul li{
     list-style: none;
 }
 
+.box-left{
+    width: 100%;
+}
+
 .product ul li img{
-    width: 100px;
+    width: 5rem;
     cursor: pointer;
 }
 
+.product ul li img:hover{
+    border: 1px solid black;
+}
+
+.product ul li img:focus{
+        border: 1px solid black;
+}
+
 #main-image{
-    width: 500px;
+    width: 70%;
 }
 
 #main-image img{
-    width: 410px;
-    margin: 0px 0px 0px 60px;
+    width: 100%;
+    margin: 0px 0px 0px 50px;
+}
+
+.box-right{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.product-name{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 24px;    
+
+}
+
+.color{
+    margin: 26px 0px 34px;
+}
+
+#currency{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#select-color{
+    display: flex; 
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+#select-color img{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#select-color ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* #select-color img:hover{
+    border: 1px solid black;
+} */
+
+.size{
+    margin: 20px 0px;
+}
+
+.size button{
+    border: 1px solid #ededed;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 15px 20px;
+    margin: 10px 15px 10px 0px; 
+    background-color: white;
+}
+
+.size button:focus{
+    border: 1px solid black;
+}
+
+.size button:hover{
+    border: 1px solid black;
+}
+
+.interact{
+    display: flex;
+    justify-content:flex-start;
+    width: 18rem;
+}
+
+.addToCart{
+    width: 100%;
+    border: 1px black solid;
+    background: white;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+    margin: 15px 0px;
+
+}
+
+.addToCart:hover{
+    transition: 0.2s;
+    background-color: black;
+    color: white;
+}
+
+#icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#icon:hover{
+    color: red;
+}
+
+.tutorial{
+    margin: 15px 0px
+}
+
+.guide{
+    margin: 20px 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.guide::after{
+    display: block;
+    content: "";
+    width: 100%;
+    border: 1px solid #ededed;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.guide:hover:after{
+    transition: 0.3s;
+    border: 1px solid black;
+}
+
+ul li#active{
+    border: 1px solid black;
 }
