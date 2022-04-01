@@ -5,7 +5,7 @@ function changeImage(id){
 }
 
 
-function changeColor(type,element) {
+function changeColor(element) {
     let color = document.getElementsByClassName('color-img');
     for (i = 0; i < color.length; i++) {
         color[i].style.border = 'none';

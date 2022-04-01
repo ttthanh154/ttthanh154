@@ -3,9 +3,9 @@
 function changeProductList(type, element){
     let tabs = document.getElementsByClassName('tab-item');
     for(i = 0; i < tabs.length; i++){
-        tabs[i].style.background = 'rgb(179, 179, 213)';
+        tabs[i].style.background = 'white';
     } ;
-    element.style.background = 'rgb(125, 125, 238)'
+    element.style.background = 'rgb(227, 227, 227)'
 
 
     document.getElementById(type).style.display = 'grid';

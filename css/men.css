@@ -51,7 +51,8 @@ p{
   justify-content: center;
   margin: 0px 0px 10px 0px;
   padding: 10px;
-  background-color: rgb(179, 179, 213);
+  background-color: white;
+  border: 1px solid black;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
@@ -102,7 +103,7 @@ p.price{
  /* PRICE FILTER */
   
  ul  li.active{
-  background-color: rgb(125, 125, 238);
+  background-color: rgb(227, 227, 227);
  }
 
  .animation{

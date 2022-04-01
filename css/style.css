@@ -51,6 +51,11 @@ body{
     color: rgb(159,34,78);
 }
 
+.nav-items>ul{
+    position: relative;
+    left: 5rem;
+}
+
 .nav-items>ul li{
     margin: 0px 15px;
     padding: 15px 20px;
