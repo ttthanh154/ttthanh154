@@ -1,36 +1,124 @@
 .cart{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 0px 55px;
     color:  #5c5c63;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #899ba7b9;
+    grid-gap: 20px;
+    font-size: 14px;
 }
 
-h2{
+
+.info-customer{
+    border: 1px solid black;
+    background-color: white;
     margin: 30px 0px;
+    padding: 20px;
+}   
+
+.payment{
+    border: 1px solid black;
+    background-color: white;
+    margin: 30px 0px;
+    padding: 20px;
 }
 
 form{
-    margin: auto;
-    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.cart table{
+.info-customer input{
+    margin: 10px 0px;
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    border: thin solid #aeaeae;
+}
+
+
+.box-left p{
+    padding: 10px 0px;
+}
+
+.tittle{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.box-right{
+    width: 100%;
+    margin: 30px 0px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 0px;
+}
+
+.opt{
+    border: thin solid #aeaeae;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.opt input{
+    margin: 2px;
+    padding: 2px;
+}
+
+.showProduct{
+    width: 100%;
+    height: 50%;
+}
+
+.detailReceipt{
     width: 100%;
 }
 
-.cart table thead tr th:first-child{
-    text-align: left;
+#box-coupon{
+    width: 100%;
+    display: flex;
+    padding: 5px 20px;
 }
 
-.cart table tr td{
-    border-bottom:  1px solid #ddd;
+#box-coupon input{
+    width: 85%;
+    height: 3rem;
+    border: thin solid #aeaeae;
+    padding: 5px;
 }
 
-.cart table thead tr th:last-child{
-    text-align: right;
+#box-coupon button{
+    width: 15%;
+    padding: 5px;
+    cursor: pointer;
 }
-.cart table tbody tr td:last-child{
-    text-align: right;
+
+.receipt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.finish{    
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 80%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.finish:hover{
+    color:white;
+    background-color:#5c5c63;
+    transition: 0.1s;
 }
