@@ -6,7 +6,7 @@
     color:  #5c5c63;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: #899ba7b9;
+    background-color: #ADBABF;
     grid-gap: 20px;
     font-size: 14px;
 }
@@ -66,6 +66,7 @@ form{
 }
 
 .opt input{
+    cursor: pointer;
     margin: 2px;
     padding: 2px;
 }

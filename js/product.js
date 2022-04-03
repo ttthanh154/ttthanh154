@@ -1,4 +1,3 @@
-
 function changeImage(id){
     let imagePath = document.getElementById(id).getAttribute('src');
     console.log(imagePath);
@@ -13,3 +12,4 @@ function changeColor(element) {
     };
     element.style.border = '1px solid black';
 } 
+
